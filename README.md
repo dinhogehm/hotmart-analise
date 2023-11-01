@@ -1,1 +1,1 @@
-# hotmart-analise
+Este projeto tem como objetivo facilitar a listagem de campos customizados criados pela calculadora solar.

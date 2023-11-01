@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        input {
+           width: 96%;
+        }
+        .frame {
+            min-height: 100px;
+            width: 660px;
+            padding: 13px;
+        }
+        .box {
+            width: 40%;
+            float: left;
+            padding: 13px;
+            margin-left: 20px;
+            min-height: 200px;
+        }
+        .boxContent {
+            line-height: 25px;
+            overflow-y: auto;
+            height: 200px;
+        }
+        .boxColorGray {
+            border-radius: 3px;
+            background-color: #cccccc;
+        }
+        .divCenter {
+            text-align: center;
+            background-color: lightgray;
+            border-radius: 3px;
+            padding: 20px;
+            width: 560px;
+            margin-left: 20px;
+        }
+        .danger {
+            color: darkred;
+            font-weight: bold;
+        }
+        #myProgress {
+            width: 100%;
+            background-color: grey;
+        }
+
+        #myBar {
+            width: 1%;
+            height: 10px;
+            background-color: green;
+        }
+        button {
+            float: left;
+            margin-top: 16px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="frame">
+    <div class="boxColorGray">
+        <div id="myProgress">
+            <div id="myBar"></div>
+        </div>
+        <div id="logList" class="boxContent">
+            <input type="text" id="termSearch" value="curso de astrologia">
+            <button id="runProcessSearch">Buscar produtos</button>
+           <p style="text-align: center;">#### <strong>Resumo de operação</strong> ####<hr></p>
+        </div>
+    </div>
+</div>
+
+<script src="/js/setup.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+   "action": {
+      "default_icon": "assets/icons/icon-16.png",
+      "default_popup": "html/step-1.html",
+      "default_title": "Hotmart Exporter"
+   },
+   "web_accessible_resources": [{
+      "resources": [ "js/*", "assets/*", "html/*"],
+      "matches": ["<all_urls>"]
+   }],
+   "name": "Hotmart Exporter",
+   "version": "0.1",
+   "manifest_version": 3,
+   "description": "Extensão para exportar lista de cursos do Hotmart",
+   "icons": {
+      "128": "assets/icons/icon-16.png",
+      "48": "assets/icons/icon-16.png",
+      "16": "assets/icons/icon-16.png"
+   },
+   "oauth2": {
+      "client_id": "607930954240-vaq9saur0q3sotku0n22qacjum6so4rt.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/drive.appdata", "https://www.googleapis.com/auth/drive.file" ]
+   },
+   "offline_enabled": false,
+   "update_url": "https://clients2.google.com/service/update2/crx"
+}
