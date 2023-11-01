@@ -1,1 +1,1 @@
-Este projeto tem como objetivo facilitar a listagem de campos customizados criados pela calculadora solar.
+Este projeto tem como objetivo facilitar a busca de cursos no hotmart market
